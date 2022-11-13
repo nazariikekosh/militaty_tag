@@ -1,0 +1,92 @@
+header{
+    background-color: #23280F;
+    display: flex;
+    align-items: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: flex;
+    align-items: center;
+}
+
+a{  font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.header__menu ul{
+    display: flex;
+    list-style: none;
+}
+.header__menu ul li{
+    margin-right: 50px;
+    
+}
+.btn__create{
+    
+    background-color: #FFD234;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+.btn__create a{
+    color: black;
+    padding: 10px 30px;
+}
+.btn__choose{
+    border: 2px solid #FFD234;
+    border-radius: 5px;
+    
+    white-space: nowrap;
+    
+}
+.btn__choose a{
+    color: #FFD234;
+    padding: 10px 30px;
+
+}
+.bag{
+    position: relative;
+}
+.elips{
+    position: absolute;
+    top: -10px;
+    right: -20px;
+}
+.elips1{
+    position: absolute;
+    top: -7px;
+    right: -6px;
+}
+.hero{
+    min-height: 789px;
+    min-width: 100%;
+    background-image: url(../img/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+}
+.hero__icon_1{
+    position: absolute;
+    bottom: 163px;
+    left: 0;
+}
+.hero__icon_2{
+    position: absolute;
+    left: 87px;
+    bottom: -15px;
+}
+.hero__title{
+    font-weight: 700;
+    font-size: 46px;
+    color: #FFFFFF;
+}
+.heo__discript{
+    font-weight: 400;
+    font-size: 28px;
+    color: #FFFFFF;
+}
